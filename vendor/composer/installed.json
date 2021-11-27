@@ -1,0 +1,609 @@
+[
+    {
+        "name": "lukasoppermann/http-status",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lukasoppermann/http-status.git",
+            "reference": "116dc83cedb6b8f2b38d4ee9bff38eb53f14d059"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lukasoppermann/http-status/zipball/116dc83cedb6b8f2b38d4ee9bff38eb53f14d059",
+            "reference": "116dc83cedb6b8f2b38d4ee9bff38eb53f14d059",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.16",
+            "league/csv": "^7.1",
+            "php-coveralls/php-coveralls": "^2.4",
+            "phpunit/phpunit": "~9.0"
+        },
+        "time": "2020-11-07T13:29:43+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Lukasoppermann\\Httpstatus\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lukas Oppermann",
+                "email": "lukas@vea.re",
+                "homepage": "http://vea.re",
+                "role": "Developer"
+            }
+        ],
+        "description": "A minimal package for working with HTTP statuses.",
+        "homepage": "https://github.com/lukasoppermann/http-status",
+        "keywords": [
+            "httpstatus",
+            "status codes"
+        ]
+    },
+    {
+        "name": "mix/database",
+        "version": "v3.0.21",
+        "version_normalized": "3.0.21.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/database.git",
+            "reference": "eac577aaee691da244a233cc48d35aef47021550"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/database/zipball/eac577aaee691da244a233cc48d35aef47021550",
+            "reference": "eac577aaee691da244a233cc48d35aef47021550",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-pdo": "*",
+            "mix/object-pool": "~3.0.0",
+            "php": ">=7.2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2021-10-14T07:16:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Database\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Simple database for use in multiple execution environments, with support for FPM, Swoole, Workerman, and optional pools",
+        "homepage": "https://openmix.org/mix-php",
+        "keywords": [
+            "database",
+            "mix",
+            "mysql",
+            "swoole",
+            "workerman"
+        ]
+    },
+    {
+        "name": "mix/http-message",
+        "version": "v3.0.15",
+        "version_normalized": "3.0.15.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/http-message.git",
+            "reference": "061eece46602dcd0d1c589a3fcffe39d4451411a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/http-message/zipball/061eece46602dcd0d1c589a3fcffe39d4451411a",
+            "reference": "061eece46602dcd0d1c589a3fcffe39d4451411a",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "lukasoppermann/http-status": "^3.1",
+            "php": ">=7.0.0",
+            "psr/http-factory": "^1.0",
+            "psr/http-message": "^1.0",
+            "ralouphie/getallheaders": "^3.0"
+        },
+        "time": "2021-09-16T11:37:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Http message library based on PSR-7 / PSR-17 standard, support Swoole, WorkerMan",
+        "homepage": "https://openmix.org/mix-php",
+        "keywords": [
+            "http",
+            "message",
+            "mix",
+            "psr",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/object-pool",
+        "version": "v3.0.4",
+        "version_normalized": "3.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/object-pool.git",
+            "reference": "d4c995daa0eefa93782aa8268dc32150e9f0dd9d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/object-pool/zipball/d4c995daa0eefa93782aa8268dc32150e9f0dd9d",
+            "reference": "d4c995daa0eefa93782aa8268dc32150e9f0dd9d",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.0"
+        },
+        "time": "2021-07-22T06:25:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\ObjectPool\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Swoole-based object pool, connection pool",
+        "homepage": "https://openmix.org/mix-php",
+        "keywords": [
+            "connection-pool",
+            "mix",
+            "object-pool",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/vega",
+        "version": "v3.0.22",
+        "version_normalized": "3.0.22.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/vega.git",
+            "reference": "626b7ed3e0e3883c733e8f6daaf4094ad97211cf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/vega/zipball/626b7ed3e0e3883c733e8f6daaf4094ad97211cf",
+            "reference": "626b7ed3e0e3883c733e8f6daaf4094ad97211cf",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/http-message": "~3.0.0",
+            "mix/view": "~3.0.0",
+            "nikic/fast-route": "^1.3",
+            "php": ">=7.2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^9.5",
+            "swoole/ide-helper": "dev-master",
+            "workerman/workerman": "^4.0"
+        },
+        "time": "2021-09-07T02:15:10+00:00",
+        "type": "framework",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Vega\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Mix Vega is a HTTP web framework written in PHP support Swoole, WorkerMan",
+        "homepage": "https://openmix.org/mix-php",
+        "keywords": [
+            "framework",
+            "mix",
+            "vega"
+        ]
+    },
+    {
+        "name": "mix/view",
+        "version": "v3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/view.git",
+            "reference": "ad416556a3c440bdbc7bbe907efa84ed5d969fa1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/view/zipball/ad416556a3c440bdbc7bbe907efa84ed5d969fa1",
+            "reference": "ad416556a3c440bdbc7bbe907efa84ed5d969fa1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2021-07-29T23:20:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\View\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "View library, reference Yii2",
+        "homepage": "https://openmix.org/",
+        "keywords": [
+            "mix",
+            "view"
+        ]
+    },
+    {
+        "name": "nikic/fast-route",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/FastRoute.git",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35|~5.7"
+        },
+        "time": "2018-02-13T20:26:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FastRoute\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov",
+                "email": "nikic@php.net"
+            }
+        ],
+        "description": "Fast request router for PHP",
+        "keywords": [
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "psr/http-factory",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-factory.git",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2019-04-30T12:38:16+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for PSR-7 HTTP message factories",
+        "keywords": [
+            "factory",
+            "http",
+            "message",
+            "psr",
+            "psr-17",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "ralouphie/getallheaders",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ralouphie/getallheaders.git",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5 || ^6.5"
+        },
+        "time": "2019-03-08T08:55:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/getallheaders.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ralph Khattar",
+                "email": "ralph.khattar@gmail.com"
+            }
+        ],
+        "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "workerman/workerman",
+        "version": "v4.0.22",
+        "version_normalized": "4.0.22.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/Workerman.git",
+            "reference": "df1a00d8f3ebd2d68527a048abb6d298fdc4941b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/Workerman/zipball/df1a00d8f3ebd2d68527a048abb6d298fdc4941b",
+            "reference": "df1a00d8f3ebd2d68527a048abb6d298fdc4941b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "suggest": {
+            "ext-event": "For better performance. "
+        },
+        "time": "2021-10-29T02:59:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "walkor",
+                "email": "walkor@workerman.net",
+                "homepage": "http://www.workerman.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "asynchronous",
+            "event-loop"
+        ]
+    }
+]
